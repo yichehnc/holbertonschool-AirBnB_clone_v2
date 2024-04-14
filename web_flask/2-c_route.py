@@ -30,7 +30,7 @@ def c_text(text):
     """
     Displays a C followed by the value of the text variable
     """
-    return "C {}".format(text.replace("_", ""))
+    return "C {}".format(text.replace("_", " "))
 
 
 if __name__ == "__main__":
